@@ -55,7 +55,7 @@ export default function Footer() {
       ))}
 
       <div className={styles.bottom}>
-        <span>© {new Date().getFullYear()} Purdue ChE GSO · Davidson School of Chemical Engineering</span>
+        <span>© {new Date().getFullYear()} Purdue ChE GSO · Davidson School of Chemical Engineering (RSR) </span>
         <span className={styles.badge}>Purdue University · West Lafayette, IN</span>
       </div>
     </footer>
