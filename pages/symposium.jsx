@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import styles from '../styles/Symposium.module.css'
 import { useState } from 'react'
 import Image from 'next/image'
+import prefix from '../utils/prefix'
 
 const schedule = {
   thursday: [
@@ -32,14 +33,14 @@ const topics = [
 ]
 
 const galleryPhotos = [
-  '/images/symposium/photo-1.jpg',
-  '/images/symposium/photo-2.jpg',
-  '/images/symposium/photo-3.jpg',
-  '/images/symposium/photo-4.jpg',
-  '/images/symposium/photo-5.jpg',
-  '/images/symposium/photo-6.jpg',
-  '/images/symposium/photo-7.jpg',
-  '/images/symposium/photo-8.jpg',
+  `${prefix}/images/symposium/photo-1.jpg`,
+  `${prefix}/images/symposium/photo-2.jpg`,
+  `${prefix}/images/symposium/photo-3.jpg`,
+  `${prefix}/images/symposium/photo-4.jpg`,
+  `${prefix}/images/symposium/photo-5.jpg`,
+  `${prefix}/images/symposium/photo-6.jpg`,
+  `${prefix}/images/symposium/photo-7.jpg`,
+  `${prefix}/images/symposium/photo-8.jpg`,
 ]
 
 function Gallery() {
