@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { navLinks } from '../data/site'
 import styles from './Navbar.module.css'
 import Image from 'next/image'
+import prefix from '../utils/prefix'
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <Link href="/" className={styles.logo}>
         <Image
-          src="/images/gsoblackgold.png"
+          src={`${prefix}/images/gsoblackgold.png`}
           alt="Purdue ChE GSO"
           width={36}
           height={36}

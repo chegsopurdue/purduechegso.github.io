@@ -1,10 +1,12 @@
+import prefix from '../utils/prefix'
+
 const president = {initials: 'DN', 
                    name: 'Daniel Nasr',          
                    role: 'President',              
                    email: 'dnasr@purdue.edu',      
                    group: 'top',     
                    advisor: 'Dr. Stephen Beaudoin',
-                   photo: '/images/board/dany5.jpeg' 
+                   photo: `${prefix}/images/board/dany5.jpeg` 
                   }
 
 const vicePresident = {initials: 'PA', 
@@ -13,7 +15,7 @@ const vicePresident = {initials: 'PA',
                        email: 'pariyaph@purdue.edu',   
                        group: 'top',     
                        advisor: 'Dr. Kelly Schultz',
-                       photo: '/images/board/phin3.jpeg' 
+                       photo: `${prefix}/images/board/phin3.jpeg` 
                       }
 
 const social_chair = {initials: 'AS', 
@@ -22,7 +24,7 @@ const social_chair = {initials: 'AS',
                       email: 'asison@purdue.edu',     
                       group: 'middle1', 
                       advisor: 'Dr. Stephen Beaudoin and Dr. Rex Rekalitis',
-                      photo: '/images/board/auggie3.jpeg' 
+                      photo: `${prefix}/images/board/auggie3.jpeg` 
                       }
 
 const coCurricular = {initials: 'PS', 
@@ -31,7 +33,7 @@ const coCurricular = {initials: 'PS',
                       email: 'sahu22@purdue.edu',    
                       group: 'middle1', 
                       advisor: 'Dr. Rex Reklaitis',
-                      photo: '/images/board/pk1.jpg' 
+                      photo: `${prefix}/images/board/pk1.jpg` 
                       }
 
 const outreach = {initials: 'EN', 
@@ -40,7 +42,7 @@ const outreach = {initials: 'EN',
                   email: 'nigroe@purdue.edu',     
                   group: 'middle1', 
                   advisor: 'Dr. Kurt Ristroph',
-                  photo: '/images/board/eric.jpeg'
+                  photo: `${prefix}/images/board/eric.jpeg`
                  }
 
 const safety = {initials: 'AT', 
@@ -49,7 +51,7 @@ const safety = {initials: 'AT',
                 email: 'tan588@purdue.edu',     
                 group: 'middle1', 
                 advisor: 'Dr. Dave Corti',
-                photo: '/images/board/allan2.jpeg' 
+                photo: `${prefix}/images/board/allan2.jpeg` 
               }
 
 const advocacy = {initials: 'LG', 
@@ -58,7 +60,7 @@ const advocacy = {initials: 'LG',
                   email: 'lguzmanj@purdue.edu',   
                   group: 'middle2', 
                   advisor: 'Dr. Zoltan Nagy',
-                  photo: '/images/board/luisdo3.jpeg' 
+                  photo: `${prefix}/images/board/luisdo3.jpeg` 
                 }
 
 const sports = {initials: 'SS', 
@@ -67,7 +69,7 @@ const sports = {initials: 'SS',
                 email: 'gsreeni@purdue.edu',    
                 group: 'middle2', 
                 advisor: 'Dr. Kelly Schultz',
-                photo: '/images/board/sathwik2.jpeg' 
+                photo: `${prefix}/images/board/sathwik2.jpeg` 
               }
 
 const cultural = {initials: 'DD', 
@@ -76,7 +78,7 @@ const cultural = {initials: 'DD',
                   email: 'durandd@purdue.edu',    
                   group: 'middle2', 
                   advisor: 'Dr. Kelly Schultz',
-                  photo: '/images/board/dylan.jpeg' 
+                  photo: `${prefix}/images/board/dylan.jpeg` 
                 }
 
 const pgsg = {initials: 'AH', 
@@ -85,7 +87,7 @@ const pgsg = {initials: 'AH',
                   email: 'ahriblja@purdue.edu',    
                   group: 'middle2', 
                   advisor: 'Dr. David Bernal',
-                  photo: '/images/board/anja3.jpeg' 
+                  photo: `${prefix}/images/board/anja3.jpeg` 
                 }
 
 const firstYear1 = {initials: 'AF', 
@@ -94,7 +96,7 @@ const firstYear1 = {initials: 'AF',
                     email: 'afoglema@purdue.edu',   
                     group: 'bottom',  
                     advisor: 'Dr. David Hibbitts',
-                    photo: '/images/board/ainslee1.jpg' 
+                    photo: `${prefix}/images/board/ainslee1.jpg` 
                   }
 
 const firstYear2 = {initials: 'GG', 
@@ -103,7 +105,7 @@ const firstYear2 = {initials: 'GG',
                     email: 'grego131@purdue.edu',   
                     group: 'bottom',  
                     advisor: 'Dr. Rajamani Gounder',
-                    photo: '/images/board/garrett2.jpeg' 
+                    photo: `${prefix}/images/board/garrett2.jpeg` 
                   }
 
 const communications = {initials: 'RR',
@@ -112,7 +114,7 @@ const communications = {initials: 'RR',
                         email: 'rramadha@purdue.edu',   
                         group: 'bottom',  
                         advisor: 'Dr. Can Li',
-                        photo: '/images/board/rafif3.jpeg' 
+                        photo: `${prefix}/images/board/rafif3.jpeg` 
                       }
 
 export const officers = [president, vicePresident, social_chair, coCurricular, outreach, safety, advocacy, sports, cultural, pgsg, firstYear1, firstYear2, communications]

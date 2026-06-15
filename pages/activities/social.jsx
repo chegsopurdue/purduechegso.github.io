@@ -1,25 +1,26 @@
 // pages/activities/social.jsx
 import ActivityLayout from '../../components/ActivityLayout'
 import Gallery from '../../components/Gallery'
+import prefix from '../utils/prefix'
 
 const photos = {
   coffeeHour: [
-    '/images/social/coffee-1.jpeg',
-    '/images/social/coffee-2.jpeg',
-    '/images/social/coffee-3.jpeg',
-    '/images/social/coffee-4.jpeg',
+    `${prefix}/images/social/coffee-1.jpeg`,
+    `${prefix}/images/social/coffee-2.jpeg`,
+    `${prefix}/images/social/coffee-3.jpeg`,
+    `${prefix}/images/social/coffee-4.jpeg`,
   ],
   // paintNight: [
-  //   '/images/social/paint-1.jpg',
-  //   '/images/social/paint-2.jpg',
+  //   `${prefix}/images/social/paint-1.jpg`,
+  //   `${prefix}/images/social/paint-2.jpg`,
   // ],
   // gameNight: [
-  //   '/images/social/game-1.jpg',
-  //   '/images/social/game-2.jpg',
+  //   `${prefix}/images/social/game-1.jpg`,
+  //   `${prefix}/images/social/game-2.jpg`,
   // ],
   // additional: [
-  //   '/images/social/extra-1.jpg',
-  //   '/images/social/extra-2.jpg',
+  //   `${prefix}/images/social/extra-1.jpg`,
+  //   `${prefix}/images/social/extra-2.jpg`,
   // ],
 }
 

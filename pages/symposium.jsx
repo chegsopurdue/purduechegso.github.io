@@ -6,6 +6,7 @@ import styles from '../styles/Symposium.module.css'
 import { useState } from 'react'
 import Image from 'next/image'
 import prefix from '../utils/prefix'
+import Gallery from '../../components/Gallery'
 
 const schedule = {
   thursday: [
@@ -42,27 +43,6 @@ const galleryPhotos = [
   `${prefix}/images/symposium/photo-7.jpg`,
   `${prefix}/images/symposium/photo-8.jpg`,
 ]
-
-function Gallery() {
-  return (
-    <section className={styles.gallery}>
-      <h2 className={styles.sectionTitle}>Previous Symposia</h2>
-      <div className={styles.galleryGrid}>
-        {galleryPhotos.map((src, i) => (
-          <div key={i} className={styles.galleryItem}>
-            <Image
-              src={src}
-              alt={`Symposium photo ${i + 1}`}
-              width={400}
-              height={280}
-              className={styles.galleryPhoto}
-            />
-          </div>
-        ))}
-      </div>
-    </section>
-  )
-}
 
 export default function Symposium() {
   return (
@@ -214,7 +194,7 @@ export default function Symposium() {
         </section>
       </main>
 
-      <Gallery />
+      <Gallery photos={photos.coffeeHour} />
 
       <Footer />
     </>

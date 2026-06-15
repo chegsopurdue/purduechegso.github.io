@@ -3,6 +3,7 @@ import { footerLinks, social } from '../data/site'
 import styles from './Footer.module.css'
 import { IconMail, IconBrandInstagram, IconBrandLinkedin } from '@tabler/icons-react'
 import Image from 'next/image'
+import prefix from '../utils/prefix'
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
       <div className={styles.brand}>
         <div className={styles.logo}>
         <Image
-          src="/images/gsowhitegold.png"
+          src={`${prefix}/images/gsowhitegold.png`}
           alt="Purdue ChE GSO"
           width={36}
           height={36}
