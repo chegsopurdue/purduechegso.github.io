@@ -1,5 +1,27 @@
 // pages/activities/social.jsx
 import ActivityLayout from '../../components/ActivityLayout'
+import Gallery from '../../components/Gallery'
+
+const photos = {
+  coffeeHour: [
+    '/images/social/coffee-1.jpeg',
+    '/images/social/coffee-2.jpeg',
+    '/images/social/coffee-3.jpeg',
+    '/images/social/coffee-4.jpeg',
+  ],
+  // paintNight: [
+  //   '/images/social/paint-1.jpg',
+  //   '/images/social/paint-2.jpg',
+  // ],
+  // gameNight: [
+  //   '/images/social/game-1.jpg',
+  //   '/images/social/game-2.jpg',
+  // ],
+  // additional: [
+  //   '/images/social/extra-1.jpg',
+  //   '/images/social/extra-2.jpg',
+  // ],
+}
 
 export default function Social() {
   return (
@@ -15,6 +37,7 @@ export default function Social() {
           relaxing atmosphere, free coffee, and great conversations. Occasionally
           the coffee is accompanied with tea or hot chocolate!
         </p>
+        <Gallery photos={photos.coffeeHour} />
       </div>
 
       <div className="actSection">
@@ -24,6 +47,7 @@ export default function Social() {
           artists. Whether it is painting on a canvas or decorating a cookie with
           frosting, it is always a good time.
         </p>
+        {/* <Gallery photos={photos.paintNight} /> */}
       </div>
 
       <div className="actSection">
@@ -33,6 +57,7 @@ export default function Social() {
           the winners. A great way to unwind and get to know fellow grad
           students outside the lab.
         </p>
+        {/* <Gallery photos={photos.gameNight} /> */}
       </div>
 
       <div className="actSection">
@@ -42,6 +67,7 @@ export default function Social() {
           including s&rsquo;mores under the stars, Friendsgiving, ice skating,
           and much more. Check the GSO calendar for upcoming events!
         </p>
+        {/* <Gallery photos={photos.additional} /> */}
       </div>
 
       <div className="calendarBox">
