@@ -128,9 +128,9 @@ export const activities = [
   },
   {
     icon: 'confetti',
-    name: 'Social Events',
+    name: 'Social and Cultural',
     href: '/activities/social',
-    desc: 'Quiz bowl, ice skating, mini golf, bowling, happy hour, and more throughout the year.',
+    desc: 'Coffe hours, game nights, cultural celebrations, and more throughout the year.',
   },
   {
     icon: 'school',
@@ -167,12 +167,12 @@ export const navLinks = [
     label: 'Activities',
     href: '#',
     children: [
-      { label: 'Safety',          href: '/activities/safety' },
-      { label: 'Social',          href: '/activities/social' },
-      { label: 'Co-Curricular',   href: '/activities/co-curricular' },
-      { label: 'Sustainability',  href: '/activities/sustainability' },
-      { label: 'Sports',          href: '/activities/sports' },
-      { label: 'Outreach',        href: '/activities/outreach' },
+      { label: 'Safety',                href: '/activities/safety' },
+      { label: 'Social and Cultural',   href: '/activities/social' },
+      { label: 'Co-Curricular',         href: '/activities/co-curricular' },
+      { label: 'Sustainability',        href: '/activities/sustainability' },
+      { label: 'Sports',                href: '/activities/sports' },
+      { label: 'Outreach',              href: '/activities/outreach' },
     ],
   },
 ]
