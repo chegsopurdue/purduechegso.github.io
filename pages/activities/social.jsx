@@ -5,23 +5,11 @@ import prefix from '../../utils/prefix'
 
 const photos = {
   coffeeHour: [
-    `${prefix}/images/social/coffee-1.jpeg`,
-    `${prefix}/images/social/coffee-2.jpeg`,
-    `${prefix}/images/social/coffee-3.jpeg`,
-    `${prefix}/images/social/coffee-4.jpeg`,
-  ],
-  // paintNight: [
-  //   `${prefix}/images/social/paint-1.jpg`,
-  //   `${prefix}/images/social/paint-2.jpg`,
-  // ],
-  // gameNight: [
-  //   `${prefix}/images/social/game-1.jpg`,
-  //   `${prefix}/images/social/game-2.jpg`,
-  // ],
-  // additional: [
-  //   `${prefix}/images/social/extra-1.jpg`,
-  //   `${prefix}/images/social/extra-2.jpg`,
-  // ],
+    `${prefix}/images/social/coffee-1.JPEG`,
+    `${prefix}/images/social/coffee-2.JPEG`,
+    `${prefix}/images/social/coffee-3.JPEG`,
+    `${prefix}/images/social/coffee-4.JPEG`,
+  ]
 }
 
 export default function Social() {
