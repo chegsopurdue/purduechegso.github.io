@@ -60,7 +60,7 @@ export default function Navbar() {
       </ul>
 
       <a
-        href="https://calendar.google.com/calendar/embed?src=v3k26sl8evn1c6qaos8h6atli8%40group.calendar.google.com&ctz=America%2FNew_York"
+        href="https://calendar.google.com/calendar/embed?src=gsochepurdue%40gmail.com&ctz=America%2FNew_York"
         target="_blank"
         rel="noreferrer"
         className={styles.cta}
