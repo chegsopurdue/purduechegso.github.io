@@ -1,5 +1,5 @@
 import styles from './SymposiumBanner.module.css'
-
+import Link from 'next/link'
 /**
  * SymposiumBanner
  *
@@ -28,9 +28,9 @@ export default function SymposiumBanner({ bgImage }) {
         </p>
       </div>
 
-      <a href="/symposium" className={styles.cta}>
+      <Link href="/symposium" className={styles.cta}>
         Learn More
-      </a>
+      </Link>
     </div>
   )
 }

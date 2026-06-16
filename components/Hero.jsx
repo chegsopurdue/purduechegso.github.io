@@ -1,4 +1,5 @@
 import styles from './Hero.module.css'
+import prefix from '../utils/prefix'
 
 /**
  * Hero section
@@ -16,7 +17,7 @@ export default function Hero({ bgImage, overlayOpacity = 0.55 }) {
       {bgImage ? (
         <div
           className={styles.bg}
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{ backgroundImage: `url(${prefix}${bgImage})` }}
         />
       ) : (
         <div className={`${styles.bg} ${styles.bgPlaceholder}`} />

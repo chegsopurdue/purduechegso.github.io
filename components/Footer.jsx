@@ -42,15 +42,25 @@ export default function Footer() {
         <div key={group} className={styles.col}>
           <div className={styles.colTitle}>{group}</div>
           {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className={styles.link}
-              target={l.href.startsWith('http') ? '_blank' : undefined}
-              rel={l.href.startsWith('http') ? 'noreferrer' : undefined}
-            >
-              {l.label}
-            </a>
+            l.href.startsWith('http') || l.href.startsWith('mailto') ? (
+              <a
+                key={l.href}
+                href={l.href}
+                className={styles.link}
+                target={l.href.startsWith('http') ? '_blank' : undefined}
+                rel={l.href.startsWith('http') ? 'noreferrer' : undefined}
+              >
+                {l.label}
+              </a>
+            ) : (
+              <Link
+                key={l.href}
+                href={l.href}
+                className={styles.link}
+              >
+                {l.label}
+              </Link>
+            )
           ))}
         </div>
       ))}

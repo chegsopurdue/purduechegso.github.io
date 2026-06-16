@@ -179,13 +179,13 @@ export const navLinks = [
 
 export const footerLinks = {
   Organization: [
-    { label: 'About & Officers',  href: '/about' },
+    { label: 'About',             href: '/about' },
     { label: 'Feedback Form',     href: 'https://purdue.ca1.qualtrics.com/jfe/form/SV_bOh7XT8LsJtlWLQ' },
   ],
   Students: [
     { label: 'Prospective Students', href: '/prospective' },
     { label: 'Symposium',            href: '/symposium' },
-    { label: 'GSO Calendar',         href: 'https://calendar.google.com/calendar/embed?src=v3k26sl8evn1c6qaos8h6atli8%40group.calendar.google.com&ctz=America%2FNew_York' },
+    { label: 'GSO Calendar',         href: "https://calendar.google.com/calendar/embed?src=gsochepurdue%40gmail.com&ctz=America%2FNew_York" },
   ],
   Activities: [
     { label: 'Safety',         href: '/activities/safety' },
