@@ -8,6 +8,9 @@ import ProspectiveSection from '../components/ProspectiveSection'
 import OfficersGrid from '../components/OfficersGrid'
 import Footer from '../components/Footer'
 import prefix from '../utils/prefix'
+import CalendarEmbed from '../components/CalendarEmbed'
+
+const CALENDAR_SRC = "https://calendar.google.com/calendar/embed?src=gsochepurdue%40gmail.com&ctz=America%2FNew_York"
 
 export default function Home() {
   return (
@@ -45,6 +48,11 @@ export default function Home() {
       <SymposiumBanner bgImage="/images/symposium-bg.jpg" />
 
       <ProspectiveSection />
+
+      <CalendarEmbed
+        src="https://calendar.google.com/calendar/embed?src=gsochepurdue%40gmail.com&ctz=America%2FNew_York"
+        icalSrc="https://calendar.google.com/calendar/ical/gsochepurdue%40gmail.com/public/basic.ics"
+      />
 
       <Footer />
     </>

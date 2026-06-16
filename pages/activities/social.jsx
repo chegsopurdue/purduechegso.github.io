@@ -108,29 +108,7 @@ export default function Social() {
         </p>
         <Gallery photos={photos.additional} />
       </div>
-
-      <div className="calendarBox">
-        <h3>GSO Calendar</h3>
-        <p>
-          <a
-            href="https://calendar.google.com/calendar/embed?src=v3k26sl8evn1c6qaos8h6atli8%40group.calendar.google.com&ctz=America%2FNew_York"
-            target="_blank"
-            rel="noreferrer"
-            className="actLink"
-          >
-            Add to Google Calendar
-          </a>
-          {' '}·{' '}
-          <a
-            href="https://calendar.google.com/calendar/ical/v3k26sl8evn1c6qaos8h6atli8%40group.calendar.google.com/public/basic.ics"
-            target="_blank"
-            rel="noreferrer"
-            className="actLink"
-          >
-            Add to Outlook / Apple Calendar
-          </a>
-        </p>
-      </div>
+      
     </ActivityLayout>
   )
 }

@@ -65,21 +65,6 @@ export default function Safety() {
         <Gallery photos={photos} />
       </div>
 
-      <div className="calendarBox">
-        <h3>Stay Up to Date</h3>
-        <p>
-          Add the GSO calendar to stay informed about upcoming ChESS seminars
-          and safety events.{' '}
-          <a
-            href="https://calendar.google.com/calendar/embed?src=v3k26sl8evn1c6qaos8h6atli8%40group.calendar.google.com&ctz=America%2FNew_York"
-            target="_blank"
-            rel="noreferrer"
-            className="actLink"
-          >
-            Add to Google Calendar
-          </a>
-        </p>
-      </div>
     </ActivityLayout>
   )
 }
