@@ -6,7 +6,8 @@ const president = {initials: 'DN',
                    email: 'dnasr@purdue.edu',      
                    group: 'top',     
                    advisor: 'Dr. Stephen Beaudoin',
-                   photo: `${prefix}/images/board/dany5.jpeg` 
+                   photo: `${prefix}/images/board/dany5.jpeg`,
+                   bio: 'Daniel (Dany) is born in Michigan and raised in Kelhat, Lebanon. He completed his undergradate studies in Chemical Engineering at the University of Balamand. He is a 3rd-year PhD student working with Dr. Stephen Beaudoin on the bladeless mixing of energetic materials. He loves to put together travel itineraries and finding hidden gems in random countries.',
                   }
 
 const vicePresident = {initials: 'PA', 
@@ -15,16 +16,18 @@ const vicePresident = {initials: 'PA',
                        email: 'pariyaph@purdue.edu',   
                        group: 'top',     
                        advisor: 'Dr. Kelly Schultz',
-                       photo: `${prefix}/images/board/phin3.jpeg` 
+                       photo: `${prefix}/images/board/phin3.jpeg`,
+                       bio: 'Phin is originally from Bangkok, Thailand and completed his undergaduate degree from New York University in Chemical and Biomolecular Engineering. He is a 3rd-year PhD student working with Dr. Kelly Schultz on microrheological studies of cell-material interactions. In his free time, Phin enjoys cooking and playing sports.', 
                       }
 
 const social_chair = {initials: 'AS', 
-                      name: 'Auggie Sison',         
+                      name: 'Augustus Sison',         
                       role: 'Social Chair',           
                       email: 'asison@purdue.edu',     
                       group: 'middle1', 
                       advisor: 'Dr. Stephen Beaudoin and Dr. Rex Rekalitis',
-                      photo: `${prefix}/images/board/auggie3.jpeg` 
+                      photo: `${prefix}/images/board/auggie3.jpeg`,
+                      bio: 'Augustus (Auggie) is from Houston, Texas and obtained his BS in Chemical Engineering from the Colorado School of Mines. He is a 2nd-year PhD student working with Dr. Stephen Beaudoin and Dr. Rex Rekalitis on the control and optimiztion of energetic materials manufacturing. A fun fact about him is that he has flown a biplane.',
                       }
 
 const coCurricular = {initials: 'PS', 
@@ -33,7 +36,8 @@ const coCurricular = {initials: 'PS',
                       email: 'sahu22@purdue.edu',    
                       group: 'middle1', 
                       advisor: 'Dr. Rex Reklaitis',
-                      photo: `${prefix}/images/board/pk1.jpg` 
+                      photo: `${prefix}/images/board/pk1.jpg`,
+                      bio: 'Pravinkumar (PK) is from Nagpur, India and completed his undergraduate degree in Chemical Engineering at the Institute of Chemical Technology, Mumbai. He is a 3rd-year PhD student working with Dr. Rex Reklaitis on modeling and designing separation processes for gene therapy products. He likes to draw and sketch and he is also a big Marvel fan.', 
                       }
 
 const outreach = {initials: 'EN', 
@@ -42,7 +46,8 @@ const outreach = {initials: 'EN',
                   email: 'nigroe@purdue.edu',     
                   group: 'middle1', 
                   advisor: 'Dr. Kurt Ristroph',
-                  photo: `${prefix}/images/board/eric.jpeg`
+                  photo: `${prefix}/images/board/eric.jpeg`,
+                  bio: 'Eric comes from New York and obtained his undergraduate degree in Chemical Engineering from Northeastern University in Boston. He is a 2nd-year PhD student working with Dr. Kurt Ristroph to optimize the design of tangential flow filtration units for medicine manufacturing. In his free time, Eric enjoys riding his bike and rock climbing.',
                  }
 
 const safety = {initials: 'AT', 
@@ -50,8 +55,9 @@ const safety = {initials: 'AT',
                 role: 'Safety Chair',           
                 email: 'tan588@purdue.edu',     
                 group: 'middle1', 
-                advisor: 'Dr. Dave Corti',
-                photo: `${prefix}/images/board/allan2.jpeg` 
+                advisor: 'Dr. David Corti',
+                photo: `${prefix}/images/board/allan2.jpeg`,
+                bio: 'Allan is originally from the California Bay Area and completed his undergraduate degree in Chemical Engineering at the University of California, Santa Barbara. He is a 2nd-year PhD student working with Dr. David Corti on using dispersions of vesicles to stabilize suspensions. He is a big New York Knicks fan and enjoys playing video games and basketball.',  
               }
 
 const advocacy = {initials: 'LG', 
@@ -60,7 +66,8 @@ const advocacy = {initials: 'LG',
                   email: 'lguzmanj@purdue.edu',   
                   group: 'middle2', 
                   advisor: 'Dr. Zoltan Nagy',
-                  photo: `${prefix}/images/board/luisdo3.jpeg` 
+                  photo: `${prefix}/images/board/luisdo3.jpeg`,
+                  bio: 'Luis is from Cartagena, Colombia and did his Bachelors at the Universidad de los Andes and his Masters at the University of Florida, both in Chemical Engineering. He is a 3rd-year PhD student working with Dr. Zoltan Nagy on the modeling and optimization of pharmaceutical manufacturing processes and networks. In his free time, Luis enjoys going to the gym, playing tennis and watching sports. Luis can solve a Rubik\'s cube in under 20 seconds!', 
                 }
 
 const sports = {initials: 'SS', 
@@ -69,7 +76,8 @@ const sports = {initials: 'SS',
                 email: 'gsreeni@purdue.edu',    
                 group: 'middle2', 
                 advisor: 'Dr. Kelly Schultz',
-                photo: `${prefix}/images/board/sathwik2.jpeg` 
+                photo: `${prefix}/images/board/sathwik2.jpeg`,
+                bio: 'Sathwik is from Bangalore, India and completed his undergraduate degree in Chemical Engineering at the Indian Institute of Technology Hyderabad. He is a 2nd-year PhD student working with Dr. Kelly Schultz in characterizing stem cell motility in covalent adaptable networks for cell delivery. Sathwik enjoys playing the piano and squash, and is a big fan of pourover coffee.', 
               }
 
 const cultural = {initials: 'DD', 
@@ -114,7 +122,8 @@ const communications = {initials: 'RR',
                         email: 'rramadha@purdue.edu',   
                         group: 'bottom',  
                         advisor: 'Dr. Can Li',
-                        photo: `${prefix}/images/board/rafif3.jpeg` 
+                        photo: `${prefix}/images/board/rafif3.jpeg`,
+                        bio: 'Rafif is from Surabaya, Indonesia and completed his undergraduate degree in Mechanical Engineering specializing in Process Systems Engineering at the RWTH Aachen University in Germany. He is a 2nd-year PhD student working with Dr. Can Li on the developing neural network architectures that satisfy hard constraints under uncertainty. He is a big Formula 1 fan and enjoys traveling, going to concerts, and trying new foods.', 
                       }
 
 export const officers = [president, vicePresident, social_chair, coCurricular, outreach, safety, advocacy, sports, cultural, pgsg, firstYear1, firstYear2, communications]
