@@ -86,7 +86,8 @@ const pgsg = {initials: 'AH',
                   role: 'PGSG Representative',    
                   email: 'ahriblja@purdue.edu',   
                   advisor: 'Dr. David Bernal',
-                  photo: `${prefix}/images/board/anja3.jpeg` 
+                  photo: `${prefix}/images/board/anja3.jpeg`,
+                  bio: 'Anja is from Novi Sad, Serbia and completed her undergraduate in both Physics and Chemistry at Dillard Unicersity. She is a 2nd-year PhD student working with Dr. David Bernal on quantum physics-informed neural networks. Anja was a student athlete in college and she likes to read and bake.' 
                 }
 
 const firstYear1 = {initials: 'AF', 
